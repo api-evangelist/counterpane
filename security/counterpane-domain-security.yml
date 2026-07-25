@@ -1,0 +1,46 @@
+generated: '2026-07-20'
+method: probed
+source: 'live probe (dig + TLS connect + HTTP HEAD) of counterpane.com on 2026-07-20'
+note: >-
+  Counterpane is defunct (acquired by BT Group in 2006). The domain is still registered and resolves,
+  but serves no site of its own: HTTPS on port 443 is refused, and plain HTTP 301-redirects every path
+  to https://www.schneier.com/ (Bruce Schneier's personal site). Absence of records below is real
+  observed data for a dormant domain, not a gap in the probe.
+hosts:
+- host: counterpane.com
+  resolves: true
+  address: 209.17.116.163
+  https: false
+  https_error: connection refused on port 443
+  http: true
+  http_status: 301
+  http_redirects_to: https://www.schneier.com/
+  hsts: false
+- host: www.counterpane.com
+  resolves: true
+  https: false
+  https_error: connection refused on port 443
+  http: true
+  http_status: 404
+  hsts: false
+domains:
+- domain: counterpane.com
+  nameservers:
+  - ns11.worldnic.com.
+  - ns12.worldnic.com.
+  dnssec: false
+  caa: []
+  mx: []
+  spf: false
+  dmarc: false
+  dmarc_policy: null
+well_known:
+- path: /.well-known/security.txt
+  status: 301
+  note: blanket redirect to schneier.com; no document served
+- path: /.well-known/openid-configuration
+  status: 301
+  note: blanket redirect to schneier.com; no document served
+- path: /.well-known/api-catalog
+  status: 301
+  note: blanket redirect to schneier.com; no document served
