@@ -57,6 +57,11 @@ tags:
 - Historical
 apis: []
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/bt-com/
+  name: BT Group
+  x-relationship: acquired
+  x-evidence: "It was venture-backed, with Accel among its investors, and was acquired by BT Group in 2006, after which its operations were folded into BT's managed security business."
 - type: DomainSecurity
   name: Counterpane domain security posture (probed)
   url: security/counterpane-domain-security.yml
