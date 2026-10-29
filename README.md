@@ -64,6 +64,38 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Counterpane is a company surfaced as a portfolio company of accel and added to the API Evangelist network as a stub for enrichment. Sector: cybersecurity. This profile is a lead awaiting the enrichment pipeline.
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-Backed by: accel
+Counterpane Internet Security, Inc. was a managed security services provider founded by cryptographer Bruce Schneier, growing out of his Counterpane Systems cryptography consultancy. Counterpane pioneered Managed Security Monitoring (MSM) — outsourced, 24x7 human-staffed security operations centers that monitored customer networks and devices for intrusions, rather than selling security products. It was venture-backed, with Accel among its investors, and was acquired by BT Group in 2006, after which its operations were folded into BT's managed security business. The company is defunct as an independent entity: it operates no product, developer portal, documentation, SDKs, or API surface today. As of the 2026-07-20 enrichment probe, counterpane.com resolves (209.17.116.163, Network Solutions nameservers) but refuses HTTPS on port 443, and plain HTTP redirects to https://www.schneier.com/ — Bruce Schneier's personal site. www.counterpane.com returns HTTP 404. There is no MX, SPF, DMARC, or CAA record on the domain. This profile is retained as a historical record; there is no API surface to enrich.
+
+**Areas:** Company · Cybersecurity · Managed Security Services · Security Monitoring · Defunct · Acquired · Historical
+
+## Counterpane on APIs.io (historical record)
+
+Everything profiled for Counterpane is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/counterpane/](https://apis.io/providers/counterpane/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Counterpane Domain Security](https://apis.io/security/counterpane/counterpane-domain-security/)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Counterpane: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/counterpane/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
